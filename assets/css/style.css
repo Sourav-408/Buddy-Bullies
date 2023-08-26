@@ -24,6 +24,12 @@
     z-index: -1;
 }
 
+.aau-bg{
+position: absolute;
+top:4% ;
+left:6% ;
+max-width: 800px !important;
+}
 
 .bg-blue {
     background-color: var(--bg-blue) !important;

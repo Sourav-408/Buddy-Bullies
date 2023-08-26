@@ -1,0 +1,60 @@
+@media (max-width:768px) {
+    .vertic al-line{
+        position: absolute;
+        left: 0;
+    }
+}
+@media(max-width:942px) {
+    .translate-y {
+        transform: translateY(20%);
+    }
+
+    .pt-211 {
+        padding-top: 100px;
+    }
+
+    .footer-para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .font25 {
+        text-align: center;
+    }
+}
+
+@media(max-width:842px) {
+    .vertical-line::after {
+        bottom: 28%;
+    }
+}
+
+@media(max-width:700px) {
+    .vertical-line::after {
+        left: 23px;
+    }
+
+    .line-container::after {
+        left: 10px;
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .line-container {
+        position: relative;
+        background-color: inherit;
+        width: 100%;
+    }
+
+    .content2 {
+        margin-left: 30px;
+    }
+
+    .align-text-end {
+        text-align: unset !important;
+    }
+
+}
